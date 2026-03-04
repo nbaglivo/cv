@@ -3,7 +3,7 @@ name: CV to PDF
 on:
   push:
     branches: [main]
-    paths: ['CV.md', '.github/workflows/cv-pdf.yml', 'package.json', 'tsconfig.json', 'scripts/**']
+    paths: ['src/cv.md', '.github/workflows/cv-pdf.yml', 'package.json', 'tsconfig.json', 'scripts/**']
   workflow_dispatch:
 
 jobs:
@@ -16,8 +16,8 @@ jobs:
       - name: Convert CV to PDF
         uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_path: CV.md
-          output_dir: .
+          input_path: src/cv.md
+          output_dir: pdf
           build_html: false
 
       - uses: actions/setup-node@v4

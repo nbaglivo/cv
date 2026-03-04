@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const pdfPath = join(__dirname, '..', 'CV.pdf');
+const pdfPath = join(__dirname, '..', 'pdf', 'cv.pdf');
 
 const buffer = await readFile(pdfPath);
 
