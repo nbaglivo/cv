@@ -16,7 +16,9 @@ Product-Oriented • Systems Thinking • Craft-Driven
 
 Senior Software Engineer with 15+ years of experience building scalable product platforms, progressing from Software Engineer to Tech Lead while remaining deeply hands-on in architecture and implementation.
 
-Strong backend foundation in distributed systems and cloud architectures, with growing specialization in frontend craft and design engineering through React and Next.js. Particularly motivated by building intuitive, resilient systems where interaction quality and technical excellence reinforce each other.
+Strong backend foundation in distributed systems and cloud architectures. Experience defining event-driven communication, service boundaries, and domain-oriented design as a Tech Lead, while remaining hands-on.
+
+Growing specialization in frontend craft and design engineering through React and Next.js. Particularly motivated by building intuitive, resilient systems where interaction quality and technical excellence reinforce each other.
 
 Currently seeking Senior / Staff Individual Contributor roles in product-driven startups and scale-ups.
 
@@ -48,6 +50,7 @@ Portfolio: https://nbaglivo.dev
 - Identified systemic ownership gaps in the core Search service powering critical product flows.
 - Surfaced architectural drift: duplicated solutions, ad-hoc workarounds, data inconsistencies, and increasing latency.
 - Highlighted operational and product risks caused by unclear ownership and limited Elasticsearch expertise.
+- Identified domain boundaries between search and adjacent domains.
 - Advocated for consolidation of efforts and elevation of Search as a strategic platform concern.
 - Established clear ownership boundaries and initiated a product-oriented long-term vision between senior engineers and PMs.
 
@@ -65,6 +68,7 @@ Portfolio: https://nbaglivo.dev
 ### Order Management System Architecture
 
 - Architected and owned a resilient Order Management system handling thousands of daily transactions with near-zero tolerance for failure.
+- Designed bounded contexts for order lifecycles, notifications, and inventory management.
 - Exposed APIs to internal platform, third-party integrations, and partner systems.
 - Designed fault-tolerant retry mechanisms ensuring EDI transactions completed despite transient integration failures (APIs, FTP, email).
 - Reduced operational incidents to near-zero downtime, eliminating manual intervention at scale.
@@ -96,10 +100,13 @@ Portfolio: https://nbaglivo.dev
 
 - Led architectural decisions for complex distributed systems.
 - Partnered closely with product during discovery to validate feasibility and shape technically sound solutions.
+- Defined service and team boundaries and domains, driving alignment between technical structure and team ownership.
 - Defined engineering standards improving scalability, reliability, and maintainability.
 - Contributed to company-wide technical strategy while remaining hands-on in critical initiatives.
 
-**Tech:** TypeScript, Node.js, AWS (Lambda, Event Bridge, Fargate, S3), MongoDB, React, Terraform, Elasticsearch  
+**Tech:** TypeScript, Node.js, AWS (Lambda, Event Bridge, Fargate, S3), MongoDB, React, Terraform, Elasticsearch
+
+
 
 ---
 
@@ -157,4 +164,7 @@ TypeScript, Node.js, REST APIs, Async Processing, Distributed Systems
 AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel
 
 **Data**  
-MongoDB, PostgreSQL, Elasticsearch  
+MongoDB, PostgreSQL, Elasticsearch
+
+**Architecture**
+Event-Driven Architecture, Service-Based Systems, Domain-Oriented Design, Systems Thinking
