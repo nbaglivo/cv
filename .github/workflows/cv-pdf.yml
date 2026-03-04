@@ -19,6 +19,7 @@ jobs:
           input_path: src/cv.md
           output_dir: pdf
           build_html: false
+          theme: src/theme.css
 
       - uses: actions/setup-node@v4
         with:
