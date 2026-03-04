@@ -171,5 +171,4 @@ MongoDB, PostgreSQL, Elasticsearch
 Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems Thinking, Distributed Systems
 
 **Tools**
-
 Cursor, Github, Linear, Notion
