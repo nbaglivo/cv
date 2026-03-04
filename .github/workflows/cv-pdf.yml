@@ -21,7 +21,7 @@ jobs:
       - run: npm ci
 
       - name: Convert CV to PDF
-        run: npx md-to-pdf CV.md
+        run: npx md-to-pdf CV.md --launch-options '{"args": ["--no-sandbox", "--disable-setuid-sandbox"]}'
 
       - name: Upload to Vercel Blob
         env:
