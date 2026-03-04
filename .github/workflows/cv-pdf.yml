@@ -1,0 +1,28 @@
+name: CV to PDF
+
+on:
+  push:
+    branches: [main]
+    paths: ['CV.md', '.github/workflows/cv-pdf.yml', 'package.json', 'tsconfig.json', 'scripts/**']
+  workflow_dispatch:
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm ci
+
+      - name: Convert CV to PDF
+        run: npx md-to-pdf CV.md
+
+      - name: Upload to Vercel Blob
+        env:
+          BLOB_READ_WRITE_TOKEN: ${{ secrets.BLOB_READ_WRITE_TOKEN }}
+        run: npx tsx scripts/upload-cv.ts
