@@ -1,7 +1,7 @@
 # Nicolás Baglivo
 
-Valencia, Spain  
-Open to Remote & Relocation  
+Valencia, Spain & Buenos Aires, Argentina
+Open to Remote & Relocation — flexible on timezone
 
 📩 nicolas.baglivo@gmail.com  
 📱 +34 610 418 657  
