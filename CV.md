@@ -94,6 +94,7 @@ Portfolio: https://nbaglivo.dev
 ## Professional Experience
 
 ### Fashion Cloud — Hamburg, Germany  
+
 2017 – 2025 (8+ years)
 
 **Tech Lead** (2024 – 2025)
@@ -105,8 +106,6 @@ Portfolio: https://nbaglivo.dev
 - Contributed to company-wide technical strategy while remaining hands-on in critical initiatives.
 
 **Tech:** TypeScript, Node.js, AWS (Lambda, Event Bridge, Fargate, S3), MongoDB, React, Terraform, Elasticsearch
-
-
 
 ---
 
@@ -128,6 +127,7 @@ Portfolio: https://nbaglivo.dev
 ---
 
 ### Devsar — La Plata, Argentina  
+
 **Software Engineer** (2015 – 2017)
 
 Fullstack engineer building web applications for international clients.
@@ -137,6 +137,7 @@ Fullstack engineer building web applications for international clients.
 ---
 
 ### LIFIA UNLP — La Plata, Argentina  
+
 **Software Engineer** (2011 – 2015)
 
 Developed and maintained web applications using JavaScript and C++.
