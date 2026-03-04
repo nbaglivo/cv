@@ -156,16 +156,20 @@ Graduated 2018
 ## Technical Skills
 
 **Frontend**  
-React, Next.js, Modern CSS, UI Architecture, Interaction & Motion Systems  
+React, Next.js, Modern CSS, UI Architecture, Interaction & Motion  
 
 **Backend**  
-TypeScript, Node.js, REST APIs, Async Processing, Distributed Systems  
+TypeScript, Node.js, APIs, Async Processing
 
 **Cloud & Infrastructure**  
-AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel
+AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
 
 **Data**  
 MongoDB, PostgreSQL, Elasticsearch
 
 **Architecture**
-Event-Driven Architecture, Service-Based Systems, Domain-Oriented Design, Systems Thinking
+Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems Thinking, Distributed Systems
+
+**Tools**
+
+Cursor, Github, Linear, Notion
