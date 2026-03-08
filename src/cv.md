@@ -156,7 +156,7 @@ Graduated 2018
 ## Technical Skills
 
 **Frontend**  
-React, Next.js, Modern CSS, UI Architecture, Interaction & Motion  
+React, Next.js, Tailwind, UI Architecture, Interaction & Motion
 
 **Backend**  
 TypeScript, Node.js, APIs, Async Processing
