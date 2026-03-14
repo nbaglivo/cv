@@ -1,9 +1,10 @@
 {
   "name": "cv",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "private": true,
   "type": "module",
   "scripts": {
+    "build:pdf": "npx tsx scripts/build-pdf.ts",
     "upload-cv": "source .env && npx tsx scripts/upload-cv.ts"
   },
   "devDependencies": {

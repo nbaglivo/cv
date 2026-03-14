@@ -1,6 +1,6 @@
 # Nicolás Baglivo
 
-Valencia, Spain & Buenos Aires, Argentina
+Valencia, Spain & Buenos Aires, Argentina 
 Remote-first — open to international teams and flexible across time zones
 
 📩 nicolas.baglivo@gmail.com  
