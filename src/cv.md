@@ -1,7 +1,7 @@
 # Nicolás Baglivo
 
 Valencia, Spain & Buenos Aires, Argentina
-Open to Remote & Relocation — flexible on timezone
+Remote-first — open to international teams and flexible across time zones
 
 📩 nicolas.baglivo@gmail.com  
 📱 +34 610 418 657  
@@ -45,7 +45,7 @@ Portfolio: https://nbaglivo.dev
 
 ---
 
-Order Platform Team Creation & Shared Services Architecture
+### Order Platform Team Creation & Shared Services Architecture
 
 - Identified growing architectural fragmentation and duplicated implementations across multiple order-related product teams.
 - Proposed and led the creation of a dedicated Order Platform team to centralize core order domain capabilities.

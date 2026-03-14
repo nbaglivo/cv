@@ -34,7 +34,6 @@ html,
 body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    background: oklch(34.95% 0.011 248.1);
     background: var(--bg-color);
     fill: currentColor;
     line-height: 1.625rem;
