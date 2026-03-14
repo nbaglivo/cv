@@ -36,12 +36,22 @@ Portfolio: https://nbaglivo.dev
 
 ## Selected Technical Contributions
 
-### High-Scale Async Processing Platform (Recent)
+### High-Scale Async Pricing Ingestion Platform
 
-- Designed and implemented an API for asynchronously processing ~10M pricing records per day in burst-heavy workloads.
-- Architected a serverless system using AWS Lambda and API Gateway.
-- Reduced processing time for 1M records from >24h to ~30 minutes.
-- Lowered compute costs by approximately 10x, shifting the bottleneck to database throughput.
+- Reduced processing time for **1M pricing records from >24h to ~30 minutes** and lowered compute costs by **~10×** by redesigning the pricing ingestion pipeline.
+- Led discovery and requirements definition, establishing processing SLAs, consistency guarantees, and operational constraints for large partner price list imports.
+- Designed a distributed ingestion architecture handling **~10M pricing records/day** under burst-heavy workloads.
+- Implemented a serverless processing pipeline using **AWS Lambda and API Gateway** to dynamically scale with ingestion bursts.
+
+---
+
+Order Platform Team Creation & Shared Services Architecture
+
+- Identified growing architectural fragmentation and duplicated implementations across multiple order-related product teams.
+- Proposed and led the creation of a dedicated Order Platform team to centralize core order domain capabilities.
+- Designed shared services and platform components used by multiple stream-aligned teams, reducing duplication and ensuring consistent behavior across products.
+- Consolidated domain expertise and enabled teams to reuse common functionality, improving development speed and long-term maintainability.
+- Staffed the team by hiring and onboarding engineers both internally and externally.
 
 ---
 
@@ -115,6 +125,7 @@ Portfolio: https://nbaglivo.dev
 - Drove alignment between product goals and engineering execution.
 - Maintained active hands-on contribution across backend and frontend.
 - Mentored engineers and strengthened engineering review culture.
+- Played a key role in hiring decisions by conducting technical interviews and contributing to the final evaluation of candidates.
 
 ---
 
@@ -172,3 +183,9 @@ Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems 
 
 **Tools**
 Cursor, Github, Linear, Notion
+
+## Languages
+
+* English — Full professional proficiency
+* Spanish — Native
+* German — Intermediate (B1 TELC)
