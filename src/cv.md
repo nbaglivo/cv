@@ -34,7 +34,7 @@ Portfolio: https://nbaglivo.dev
 
 ---
 
-## Selected Technical Contributions
+## Selected Contributions
 
 ### High-Scale Async Pricing Ingestion Platform
 
