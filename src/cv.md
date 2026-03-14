@@ -1,6 +1,6 @@
 # Nicolás Baglivo
 
-Valencia, Spain & Buenos Aires, Argentina 
+Valencia, Spain & Buenos Aires, Argentina  
 Remote-first — open to international teams and flexible across time zones
 
 📩 nicolas.baglivo@gmail.com  
@@ -41,7 +41,7 @@ Portfolio: https://nbaglivo.dev
 - Reduced processing time for **1M pricing records from >24h to ~30 minutes** and lowered compute costs by **~10×** by redesigning the pricing ingestion pipeline.
 - Led discovery and requirements definition, establishing processing SLAs, consistency guarantees, and operational constraints for large partner price list imports.
 - Designed a distributed ingestion architecture handling **~10M pricing records/day** under burst-heavy workloads.
-- Implemented a serverless processing pipeline using **AWS Lambda and API Gateway** to dynamically scale with ingestion bursts.
+- Implemented a serverless processing pipeline using **AWS Lambda, Event Bridge and API Gateway** to dynamically scale with ingestion bursts.
 
 ---
 
