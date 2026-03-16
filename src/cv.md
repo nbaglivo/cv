@@ -178,10 +178,10 @@ AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
 **Data**  
 MongoDB, PostgreSQL, Elasticsearch
 
-**Architecture**
+**Architecture**  
 Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems Thinking, Distributed Systems
 
-**Tools**
+**Tools**  
 Cursor, Github, Linear, Notion
 
 ## Languages
