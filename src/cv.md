@@ -1,10 +1,3 @@
----
-theme:
-  scope: default
-  overrides:
-    h1: "text-5xl text-red-500"  # only override h1
----
-
 # Nicolás Baglivo
 
 Valencia, Spain & Buenos Aires, Argentina  
