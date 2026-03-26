@@ -3,10 +3,10 @@
 Valencia, Spain & Buenos Aires, Argentina  
 Remote-first — open to international teams and flexible across time zones
 
-📩 nicolas.baglivo@gmail.com  
-📱 +34 610 418 657  
-🌐 https://nbaglivo.dev  
-🔗 https://linkedin.com/in/nbaglivo  
+[nicolas.baglivo@gmail.com](mailto:nicolas.baglivo@gmail.com)  
++34 610 418 657  
+[https://nbaglivo.dev](https://nbaglivo.dev)  
+[https://linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)  
 
 ---
 
@@ -30,7 +30,7 @@ Currently seeking Senior / Staff Individual Contributor roles in product-driven 
 - Build small product-focused applications to explore interaction design, animation systems, and UI architecture.
 - Actively deepening expertise in advanced UI animation and frontend performance (animations.dev).
 
-Portfolio: https://nbaglivo.dev
+Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
 ---
 
@@ -103,7 +103,7 @@ Portfolio: https://nbaglivo.dev
 
 ## Professional Experience
 
-### Fashion Cloud — Hamburg, Germany  
+### Fashion Cloud — Hamburg, Germany
 
 2017 – 2025 (8+ years)
 
@@ -137,7 +137,7 @@ Portfolio: https://nbaglivo.dev
 
 ---
 
-### Devsar — La Plata, Argentina  
+### Devsar — La Plata, Argentina
 
 **Software Engineer** (2015 – 2017)
 
@@ -147,7 +147,7 @@ Fullstack engineer building web applications for international clients.
 
 ---
 
-### LIFIA UNLP — La Plata, Argentina  
+### LIFIA UNLP — La Plata, Argentina
 
 **Software Engineer** (2011 – 2015)
 
@@ -186,6 +186,7 @@ Cursor, Github, Linear, Notion
 
 ## Languages
 
-* English — Full professional proficiency
-* Spanish — Native
-* German — Intermediate (B1 TELC)
+- English — Full professional proficiency
+- Spanish — Native
+- German — Intermediate (B1 TELC)
+
