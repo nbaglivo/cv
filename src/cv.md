@@ -35,7 +35,6 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 - Designed a distributed ingestion architecture handling **~10M pricing records/day** under burst-heavy workloads.
 - Implemented a serverless processing pipeline using **AWS Lambda, Event Bridge and API Gateway** to dynamically scale with ingestion bursts.
 
----
 
 ### Order Platform Team Creation & Shared Services Architecture
 
@@ -44,8 +43,6 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 - Designed shared services and platform components used by multiple stream-aligned teams, reducing duplication and ensuring consistent behavior across products.
 - Consolidated domain expertise and enabled teams to reuse common functionality, improving development speed and long-term maintainability.
 - Staffed the team by hiring and onboarding engineers both internally and externally.
-
----
 
 ### Search Platform Ownership & Strategic Reset
 
@@ -56,16 +53,12 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 - Advocated for consolidation of efforts and elevation of Search as a strategic platform concern.
 - Established clear ownership boundaries and initiated a product-oriented long-term vision between senior engineers and PMs.
 
----
-
 ### Event-Driven Subsystem Communication Standards
 
 - Defined shared standards for inter-service communication across subsystems.
 - Introduced event-driven patterns using AWS EventBridge.
 - Clarified when to prefer events over direct service-to-service communication.
 - Improved decoupling, scalability, and long-term system evolution.
-
----
 
 ### Order Management System Architecture
 
@@ -75,16 +68,12 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 - Designed fault-tolerant retry mechanisms ensuring EDI transactions completed despite transient integration failures (APIs, FTP, email).
 - Reduced operational incidents to near-zero downtime, eliminating manual intervention at scale.
 
----
-
 ### Declarative Validation Framework (Pre-Ecosystem Maturity)
 
 - Designed and implemented a declarative, composable validation framework for API input and domain constraints before mature TypeScript validation libraries were widely available.
 - Built a strongly typed API leveraging advanced TypeScript generics and functional composition patterns.
 - Adopted across multiple backend services and maintained in production for several years.
 - Later migrated to ecosystem-standard tooling once it became the better long-term fit.
-
----
 
 ### Engineering Quality Standards
 
@@ -109,7 +98,6 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
 **Tech:** TypeScript, Node.js, AWS (Lambda, Event Bridge, Fargate, S3), MongoDB, React, Terraform, Elasticsearch
 
----
 
 **Team Lead** (2021 – 2024)
 
@@ -119,15 +107,12 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 - Mentored engineers and strengthened engineering review culture.
 - Played a key role in hiring decisions by conducting technical interviews and contributing to the final evaluation of candidates.
 
----
-
 **Software Engineer** (2017 – 2021)
 
 - Designed and implemented scalable APIs and backend services.
 - Contributed to frontend applications and internal tooling (Angular & React).
 - Led refactoring and architectural improvements of legacy systems.
 
----
 
 ### Devsar — La Plata, Argentina
 
@@ -136,8 +121,6 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 Fullstack engineer building web applications for a San Francisco–based startup.
 
 **Tech:** TypeScript, Node.js, Angular, React, PostgreSQL  
-
----
 
 ### LIFIA UNLP — La Plata, Argentina
 
@@ -186,4 +169,3 @@ Cursor, Github, Linear, Notion
 - English — Full professional proficiency
 - Spanish — Native
 - German — Intermediate (B1 TELC)
-
