@@ -162,6 +162,9 @@ Analista Programador Universitario
 (Computer Science degree equivalent to Bachelor level)  
 Graduated 2018
 
+**CoA Academy**  
+Chief of the Year (1-year leadership program) — 2021
+
 ---
 
 ## Technical Skills
