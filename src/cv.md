@@ -179,6 +179,8 @@ Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems 
 **Tools**  
 Cursor, Github, Linear, Notion
 
+---
+
 ## Languages
 
 - English — Full professional proficiency
