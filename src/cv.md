@@ -131,9 +131,9 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
 ### Devsar — La Plata, Argentina
 
-**Software Engineer** (2015 – 2017)
+**Fullstack Software Engineer** (2015 – 2017)
 
-Fullstack engineer building web applications for international clients.
+Fullstack engineer building web applications for a San Francisco–based startup.
 
 **Tech:** TypeScript, Node.js, Angular, React, PostgreSQL  
 
