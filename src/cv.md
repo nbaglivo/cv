@@ -10,25 +10,17 @@ Remote-first — open to international teams and flexible across time zones
 
 ---
 
-## Senior Fullstack Engineer (TypeScript / React / Node.js)
+## Senior Product Engineer (TypeScript / React / Node.js)
 
-Product-Oriented • Systems Thinking • Craft-Driven
+Product Thinking • Systems Thinking • Craft-Driven
 
-Senior Software Engineer with 15+ years of experience building scalable product platforms, progressing from Software Engineer to Tech Lead while remaining deeply hands-on in architecture and implementation.
+Product engineer with 15+ years of experience building for the web. I work end-to-end — from understanding problems to shipping thoughtful, well-crafted experiences.
 
-Strong backend foundation in distributed systems and cloud architectures. Experience defining event-driven communication, service boundaries, and domain-oriented design as a Tech Lead, while remaining hands-on.
+Strong foundation in backend systems and architecture, combined with a growing focus on frontend craft, interaction quality, and design engineering.
 
-Growing specialization in frontend craft and design engineering through React and Next.js. Particularly motivated by building intuitive, resilient systems where interaction quality and technical excellence reinforce each other.
+Experience in technical leadership, bringing strong ownership, communication, and alignment skills, while choosing to stay hands-on.
 
-Currently seeking Senior / Staff Individual Contributor roles in product-driven startups and scale-ups.
-
----
-
-## Design Engineering & Product Craft
-
-- Design and ship micro-interactions and motion-driven UI improvements across personal and experimental projects using React, Next.js, and Motion.
-- Build small product-focused applications to explore interaction design, animation systems, and UI architecture.
-- Actively deepening expertise in advanced UI animation and frontend performance (animations.dev).
+I care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
 
 Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
