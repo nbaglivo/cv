@@ -4,7 +4,7 @@ Markdown-based CV. It uses [cvmd.sh](https://cvmd.foreignkey.sh) to deploy autom
 
 ![cvmd](cvmd.png)
 
-Visit the live version [here](https://app.cvmd.sh.nbaglivo.dev/cv/nicol-s-baglivo)
+Visit the live version [here](https://app.cvmd.sh.nbaglivo.dev/cv/nbaglivo)
 
 ## Local building. 
 
