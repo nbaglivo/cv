@@ -18,8 +18,7 @@ theme:
 
 # Nicolás Baglivo
 
-Valencia, Spain & Buenos Aires, Argentina  
-Remote-first — open to international teams and flexible across time zones  
+Valencia, Spain & Buenos Aires, Argentina · Remote-first  
 nicolas.baglivo@gmail.com · +34 610 418 657  
 [nbaglivo.dev](https://nbaglivo.dev) *(built with Next.js)* · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
 
@@ -29,7 +28,8 @@ nicolas.baglivo@gmail.com · +34 610 418 657
 
 `TypeScript · Node.js · React · AWS`
 
-Product engineer with 15+ years of experience building for the web. I work end-to-end — from understanding problems to shipping thoughtful, well-crafted experiences — with deep expertise in TypeScript and Node.js backends, and a strong personal focus on React and frontend craft.
+Product engineer with 15+ years of experience building for the web. 
+I work end-to-end — from system architecture to shipped product — with deep expertise in TypeScript and Node.js backends and a strong personal focus on React and frontend craft.
 
 I care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
 
