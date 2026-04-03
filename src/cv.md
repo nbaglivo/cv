@@ -53,14 +53,17 @@ I care about speed, iteration, and making thoughtful tradeoffs to deliver real i
 - Consolidated domain expertise and enabled teams to reuse common functionality, improving development speed and long-term maintainability.
 - Staffed the team by hiring and onboarding engineers both internally and externally.
 
-### Search Platform Ownership & Strategic Reset
+### cvmd.sh — CV as Code Platform *(personal project)*
 
-- Identified systemic ownership gaps in the core Search service powering critical product flows.
-- Surfaced architectural drift: duplicated solutions, ad-hoc workarounds, data inconsistencies, and increasing latency.
-- Highlighted operational and product risks caused by unclear ownership and limited Elasticsearch expertise.
-- Identified domain boundaries between search and adjacent domains.
-- Advocated for consolidation of efforts and elevation of Search as a strategic platform concern.
-- Established clear ownership boundaries and initiated a product-oriented long-term vision between senior engineers and PMs.
+[cvmd.foreignkey.sh](https://cvmd.foreignkey.sh)
+
+- Built a full-stack platform that treats CVs as code — write in 
+  Markdown, push to GitHub, get a hosted page and PDF automatically.
+- Designed a monorepo with three apps: marketing site, platform, and 
+  a dedicated PDF generation service (Hono on Railway).
+- Built real-time deployment monitoring with live log streaming so 
+  users can observe and rerun failed deployments.
+- Stack: Next.js, Hono, Neon, Vercel Storage, Railway, Vercel.
 
 ### Event-Driven Subsystem Communication Standards
 
@@ -79,15 +82,8 @@ I care about speed, iteration, and making thoughtful tradeoffs to deliver real i
 
 ### Declarative Validation Framework (Pre-Ecosystem Maturity)
 
-- Designed and implemented a declarative, composable validation framework for API input and domain constraints before mature TypeScript validation libraries were widely available.
+- Designed and implemented a declarative, composable validation framework for API input and domain constraints.
 - Built a strongly typed API leveraging advanced TypeScript generics and functional composition patterns.
-- Adopted across multiple backend services and maintained in production for several years.
-- Later migrated to ecosystem-standard tooling once it became the better long-term fit.
-
-### Engineering Quality Standards
-
-- Authored and introduced a Testing Manifesto to standardize testing vocabulary, tooling, and expectations across engineering.
-- Elevated shared quality standards by defining guiding principles, documenting practical guidelines, and partnering closely with teams to drive adoption.
 
 ---
 
