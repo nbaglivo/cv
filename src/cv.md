@@ -1,28 +1,37 @@
+---
+theme:
+  overrides:
+    h1: "text-black text-4xl font-bold tracking-tight mt-0 mb-2"
+    h2: "text-black text-2xl font-bold mt-2 mb-3"
+    h3: "text-black text-xl font-semibold mt-6 mb-2"
+    p: "text-base leading-relaxed mb-4 text-black"
+    a: "text-black underline"
+    ul: "list-disc pl-8 mb-4"
+    ol: "list-decimal pl-8 mb-4"
+    li: "text-black mb-2"
+    strong: "font-semibold"
+    em: "italic"
+    blockquote: "text-black italic"
+    code: "text-black font-mono text-sm tracking-wide"
+    hr: "border-t border-gray-200 mt-10 mb-10"
+---
+
 # Nicolás Baglivo
 
 Valencia, Spain & Buenos Aires, Argentina  
-Remote-first — open to international teams and flexible across time zones
-
-[nicolas.baglivo@gmail.com](mailto:nicolas.baglivo@gmail.com)  
-+34 610 418 657  
-[https://nbaglivo.dev](https://nbaglivo.dev)  
-[https://linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)  
+Remote-first — open to international teams and flexible across time zones  
+nicolas.baglivo@gmail.com · +34 610 418 657  
+[nbaglivo.dev](https://nbaglivo.dev) *(built with Next.js)* · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
 
 ---
 
-## Senior Product Engineer (TypeScript / React / Node.js)
+## Senior Product Engineer  
 
-Product Thinking • Systems Thinking • Craft-Driven
+`TypeScript · Node.js · React · AWS`
 
-Product engineer with 15+ years of experience building for the web. I work end-to-end — from understanding problems to shipping thoughtful, well-crafted experiences.
-
-Strong foundation in backend systems and architecture, combined with a growing focus on frontend craft, interaction quality, and design engineering.
-
-Experience in technical leadership, bringing strong ownership, communication, and alignment skills, while choosing to stay hands-on.
+Product engineer with 15+ years of experience building for the web. I work end-to-end — from understanding problems to shipping thoughtful, well-crafted experiences — with deep expertise in TypeScript and Node.js backends, and a strong personal focus on React and frontend craft.
 
 I care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
-
-Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
 ---
 
@@ -120,13 +129,13 @@ Portfolio: [https://nbaglivo.dev](https://nbaglivo.dev)
 
 Fullstack engineer building web applications for a San Francisco–based startup.
 
-**Tech:** TypeScript, Node.js, Angular, React, PostgreSQL  
+**Tech:** TypeScript, Node.js, Angular, React, PostgreSQL, Python, Django  
 
 ### LIFIA UNLP — La Plata, Argentina
 
 **Software Engineer** (2011 – 2015)
 
-Developed and maintained web applications using JavaScript and C++.
+Developed and maintained web applications using JavaScript, HTML, Lua, Node.js and C++.
 
 ---
 
