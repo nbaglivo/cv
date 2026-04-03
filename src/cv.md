@@ -28,10 +28,10 @@ nicolas.baglivo@gmail.com · +34 610 418 657
 
 `TypeScript · Node.js · React · AWS`
 
-Product engineer with 15+ years of experience building for the web. 
+Product engineer with 15+ years of experience building for the web.  
 I work end-to-end — from system architecture to shipped product — with deep expertise in TypeScript and Node.js backends and a strong personal focus on React and frontend craft.
 
-I care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
+I work with a heavily AI-assisted workflow, am actively experimenting with agents and LLMs, and care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
 
 ---
 
@@ -89,11 +89,10 @@ I care about speed, iteration, and making thoughtful tradeoffs to deliver real i
 
 ## Professional Experience
 
-### Fashion Cloud — Hamburg, Germany
+### Fashion Cloud — Hamburg, Germany (2017 – 2025)
 
-2017 – 2025 (8+ years)
 
-**Tech Lead** (2024 – 2025)
+**Tech Lead (2024 – 2025)**
 
 - Led architectural decisions for complex distributed systems.
 - Partnered closely with product during discovery to validate feasibility and shape technically sound solutions.
@@ -101,18 +100,19 @@ I care about speed, iteration, and making thoughtful tradeoffs to deliver real i
 - Defined engineering standards improving scalability, reliability, and maintainability.
 - Contributed to company-wide technical strategy while remaining hands-on in critical initiatives.
 
-**Tech:** TypeScript, Node.js, AWS (Lambda, Event Bridge, Fargate, S3), MongoDB, React, Terraform, Elasticsearch
 
+**Team Lead (2021 – 2024)**
 
-**Team Lead** (2021 – 2024)
+- Led technical direction for a customer-facing product area, 
+  bridging product goals and engineering execution.
+- Stayed hands-on across backend and frontend while managing 
+  the team's technical roadmap.
+- Contributed to hiring decisions and strengthened code review culture.
+- Mentored engineers at multiple levels, including growing a senior 
+  engineer into a Team Lead role — enabling both his progression 
+  and my own transition.
 
-- Owned technical direction for a customer-facing product area.
-- Drove alignment between product goals and engineering execution.
-- Maintained active hands-on contribution across backend and frontend.
-- Mentored engineers and strengthened engineering review culture.
-- Played a key role in hiring decisions by conducting technical interviews and contributing to the final evaluation of candidates.
-
-**Software Engineer** (2017 – 2021)
+**Software Engineer (2017 – 2021)**
 
 - Designed and implemented scalable APIs and backend services.
 - Contributed to frontend applications and internal tooling (Angular & React).
@@ -121,25 +121,24 @@ I care about speed, iteration, and making thoughtful tradeoffs to deliver real i
 
 ### Devsar — La Plata, Argentina
 
-**Fullstack Software Engineer** (2015 – 2017)
+**Fullstack Software Engineer (2015 – 2017)**
 
 Fullstack engineer building web applications for a San Francisco–based startup.
 
-**Tech:** TypeScript, Node.js, Angular, React, PostgreSQL, Python, Django  
+**Tech:** TypeScript, Node.js, Angular, React, PostgreSQL
 
 ### LIFIA UNLP — La Plata, Argentina
 
-**Software Engineer** (2011 – 2015)
+**Software Engineer (2011 – 2015)**
 
-Developed and maintained web applications using JavaScript, HTML, Lua, Node.js and C++.
+Developed and maintained web applications using JavaScript, HTML, Node.js and C++.
 
 ---
 
 ## Education
 
 **Universidad Nacional de La Plata — Argentina**  
-Analista Programador Universitario  
-(Computer Science degree equivalent to Bachelor level)  
+Analista Programador Universitario
 Graduated 2018
 
 **CoA Academy**  
@@ -147,30 +146,30 @@ Chief of the Year (1-year leadership program) — 2021
 
 ---
 
-## Technical Skills
+## Skills
 
-**Frontend**  
-React, Next.js, Tailwind, UI Architecture, Interaction & Motion
+**Frontend**
+React, Next.js, Tailwind, UI Architecture
 
-**Backend**  
+**Backend**
 TypeScript, Node.js, APIs, Async Processing
 
-**Cloud & Infrastructure**  
-AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
+**Cloud & Infrastructure**
+AWS (Lambda, EventBridge, Fargate, S3, API Gateway), 
+Terraform, Vercel, Docker
 
-**Data**  
+**Data**
 MongoDB, PostgreSQL, Elasticsearch
 
-**Architecture**  
-Event-Driven Architecture, Service-Based Systems, Domain Driven Design, Systems Thinking, Distributed Systems
+**Architecture**
+Event-Driven Architecture, Domain Driven Design, 
+Distributed Systems, Systems Thinking
 
-**Tools**  
-Cursor, Github, Linear, Notion
+**AI**
+LLM integration, Agent prototyping, AI-assisted development 
+(Cursor, Claude)
 
----
-
-## Languages
-
-- English — Full professional proficiency
-- Spanish — Native
-- German — Intermediate (B1 TELC)
+**Languages**
+English — Full professional proficiency
+Spanish — Native
+German — Intermediate (B1 TELC)
