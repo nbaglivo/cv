@@ -148,28 +148,28 @@ Chief of the Year (1-year leadership program) — 2021
 
 ## Skills
 
-**Frontend**
+**Frontend**  
 React, Next.js, Tailwind, UI Architecture
 
-**Backend**
+**Backend**  
 TypeScript, Node.js, APIs, Async Processing
 
-**Cloud & Infrastructure**
+**Cloud & Infrastructure**  
 AWS (Lambda, EventBridge, Fargate, S3, API Gateway), 
 Terraform, Vercel, Docker
 
-**Data**
+**Data**  
 MongoDB, PostgreSQL, Elasticsearch
 
-**Architecture**
+**Architecture**  
 Event-Driven Architecture, Domain Driven Design, 
 Distributed Systems, Systems Thinking
 
-**AI**
+**AI**  
 LLM integration, Agent prototyping, AI-assisted development 
 (Cursor, Claude)
 
-**Languages**
-English — Full professional proficiency
-Spanish — Native
-German — Intermediate (B1 TELC)
+**Languages**  
+English — Full professional proficiency  
+Spanish — Native  
+German — Intermediate (B1 TELC)  
