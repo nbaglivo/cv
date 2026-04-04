@@ -57,8 +57,7 @@ I work with a heavily AI-assisted workflow, am actively experimenting with agent
 
 [cvmd.foreignkey.sh](https://cvmd.foreignkey.sh)
 
-- Built a full-stack platform that treats CVs as code — write in 
-  Markdown, push to GitHub, get a hosted page and PDF automatically.
+- Built solo end-to-end: a full-stack platform that treats CVs as code — write in Markdown, push to GitHub, get a hosted page and PDF automatically.
 - Designed a monorepo with three apps: marketing site, platform, and 
   a dedicated PDF generation service (Hono on Railway).
 - Built real-time deployment monitoring with live log streaming so 
@@ -91,6 +90,7 @@ I work with a heavily AI-assisted workflow, am actively experimenting with agent
 
 ### Fashion Cloud — Hamburg, Germany (2017 – 2025)
 
+Joined when the company was ~13 people and a 4-person engineering team. Left with 130+ employees and ~40 engineers, having grown with and helped shape that scaling.
 
 **Tech Lead (2024 – 2025)**
 
@@ -159,7 +159,7 @@ AWS (Lambda, EventBridge, Fargate, S3, API Gateway),
 Terraform, Vercel, Docker
 
 **Data**  
-MongoDB, PostgreSQL, Elasticsearch
+MongoDB (Atlas, Atlas Search), PostgreSQL, Elasticsearch
 
 **Architecture**  
 Event-Driven Architecture, Domain Driven Design, 
