@@ -13,7 +13,7 @@ theme:
     em: "italic"
     blockquote: "text-black italic"
     code: "text-black font-mono text-sm tracking-wide"
-    hr: "border-t border-gray-200 mt-10 mb-10"
+    hr: "border-t border-gray-200 mt-8 mb-8"
 ---
 
 # Nicolás Baglivo
