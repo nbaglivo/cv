@@ -67,7 +67,7 @@ I work with a heavily AI-assisted workflow, am actively experimenting with agent
 ### Event-Driven Subsystem Communication Standards
 
 - Defined shared standards for inter-service communication across subsystems.
-- Introduced event-driven patterns using AWS EventBridge.
+- Introduced event-driven patterns using AWS Event Bridge.
 - Clarified when to prefer events over direct service-to-service communication.
 - Improved decoupling, scalability, and long-term system evolution.
 
@@ -155,19 +155,16 @@ React, Next.js, Tailwind, UI Architecture
 TypeScript, Node.js, APIs, Async Processing
 
 **Cloud & Infrastructure**  
-AWS (Lambda, EventBridge, Fargate, S3, API Gateway), 
-Terraform, Vercel, Docker
+AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
 
 **Data**  
 MongoDB (Atlas, Atlas Search), PostgreSQL, Elasticsearch
 
 **Architecture**  
-Event-Driven Architecture, Domain Driven Design, 
-Distributed Systems, Systems Thinking
+Event-Driven Architecture, Domain Driven Design,  Distributed Systems, Systems Thinking
 
 **AI**  
-LLM integration, Agent prototyping, AI-assisted development 
-(Cursor, Claude)
+LLM integration, Agent prototyping, AI-assisted development (Cursor, Claude)
 
 **Languages**  
 English — Full professional proficiency  
