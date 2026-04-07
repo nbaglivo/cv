@@ -37,13 +37,12 @@ I use a heavily AI-assisted workflow, am actively experimenting with agents and 
 
 ## Selected Contributions
 
-### High-Scale Async Pricing Ingestion Platform
+### High-Scale Async Pricing Ingestion Pipeline
 
-- Reduced processing time for **1M pricing records from >24h to ~30 minutes** and lowered compute costs by **~10×** by redesigning the pricing ingestion pipeline.
-- Led discovery and requirements definition, establishing processing SLAs, consistency guarantees, and operational constraints for large partner price list imports.
-- Designed a distributed ingestion architecture handling **~10M pricing records/day** under burst-heavy workloads.
-- Implemented a serverless processing pipeline using **AWS Lambda, Event Bridge and API Gateway** to dynamically scale with ingestion bursts.
-
+- Identified a critical performance bottleneck as Tech Lead — outside my direct scope, but kept flagging it until given the space to own it.
+- Scoped the solution end-to-end: interviewed internal stakeholders, mapped adjacent integrations, wrote an RFC, gathered feedback from peers and the future owning team, and made the final architectural decisions where consensus ran out.
+- Reduced processing time for 1M pricing records from >24h to ~30 minutes and lowered compute costs by ~10×.
+- Designed a distributed ingestion architecture handling ~10M pricing records/day under burst-heavy workloads, implemented as a serverless pipeline using AWS Lambda, EventBridge and API Gateway.
 
 ### Order Platform Team Creation & Shared Services Architecture
 
@@ -67,7 +66,7 @@ I use a heavily AI-assisted workflow, am actively experimenting with agents and 
 ### Event-Driven Subsystem Communication Standards
 
 - Defined shared standards for inter-service communication across subsystems.
-- Introduced event-driven patterns using AWS Event Bridge.
+- Introduced event-driven patterns using AWS EventBridge.
 - Clarified when to prefer events over direct service-to-service communication.
 - Improved decoupling, scalability, and long-term system evolution.
 
@@ -155,7 +154,7 @@ React, Next.js, Tailwind, UI Architecture
 TypeScript, Node.js, APIs, Async Processing
 
 **Cloud & Infrastructure**  
-AWS (Lambda, Event Bridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
+AWS (Lambda, EventBridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
 
 **Data**  
 MongoDB (Atlas, Atlas Search), PostgreSQL, Elasticsearch
