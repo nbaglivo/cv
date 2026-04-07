@@ -28,10 +28,10 @@ nicolas.baglivo@gmail.com · +34 610 418 657
 
 `TypeScript · Node.js · React · AWS`
 
-Product engineer with 15+ years of experience building for the web.  
-I work end-to-end — from system architecture to shipped product — with deep expertise in TypeScript and Node.js backends and a strong personal focus on React and frontend craft.
+Product engineer with 15+ years of experience building for the web.
 
-I work with a heavily AI-assisted workflow, am actively experimenting with agents and LLMs, and care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
+I work end-to-end — from problem discovery and technical design to shipped product — with deep expertise in TypeScript and Node.js backends and strong frontend capability in React. I care about owning problems fully, not just implementing solutions.  
+I use a heavily AI-assisted workflow, am actively experimenting with agents and LLMs, and care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
 
 ---
 
