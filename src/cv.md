@@ -53,6 +53,8 @@ A critical performance bottleneck was slowing down the business — processing 1
 
 I scoped the solution end-to-end: interviewed internal stakeholders, mapped adjacent integrations, wrote an RFC, gathered feedback from peers and the future owning team, and made the final architectural decisions where consensus ran out.
 
+Working closely with the infrastructure team, I implemented the pipeline using AWS Lambda, EventBridge, and API Gateway — provisioned entirely through Terraform. Along the way I built reusable Terraform modules that simplified resource creation for other teams across the company. 
+
 The result: processing time dropped from 24h to ~30 minutes. Compute costs fell by 10×. The system now handles ~10M pricing records per day under burst-heavy workloads.
 
 ---
@@ -79,11 +81,11 @@ From there, fault-tolerant retry mechanisms handled transient failures automatic
 
 ---
 
-### Architecture context *(prototype)*
+### Unfold *(prototype)*
 
 Architecture drift is expensive because it's discovered too late — in code review, or worse, after shipping. The knowledge to prevent it usually exists, written in ADRs, but it sits dormant and disconnected from the tools that could use it.
 
-Fold changes that. When an ADR is pushed to GitHub, a GitHub app triggers an LLM that analyzes the decision and updates a structured architecture JSON committed back to the repo. That file becomes the living model of your system — human-readable, diffable, and reviewable alongside the decision that changed it.
+Unfold changes that. When an ADR is pushed to GitHub, a GitHub app triggers an LLM that analyzes the decision and updates a structured architecture JSON committed back to the repo. That file becomes the living model of your system — human-readable, diffable, and reviewable alongside the decision that changed it.
 
 The JSON feeds a visualization tool that shows your architecture as it emerges from your decisions. An AI layer lets you consult it directly — asking questions grounded in the actual history and reasoning of the system, not just the current state of the code.
 
