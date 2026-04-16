@@ -43,6 +43,10 @@ Multiple product teams were solving the same order-related problems independentl
 
 I diagnosed the structural gap and proposed the solution: a dedicated platform team whose mandate was to centralise core order domain capabilities and serve the teams depending on them. I led it end-to-end — defined the scope, designed the shared services, hired the team from both inside and outside the organisation, and onboarded them into the mission.
 
+I introduced a platform-as-a-product mindset to how we operated. That meant doing discovery with stream-aligned teams to understand their actual needs, not just building what we assumed was right. What we learned shaped what we built — and we systematically brought those capabilities back to the teams that needed them, creating opportunities rather than just solving problems reactively.
+
+We published SDKs that stream-aligned teams used to integrate with the order management system — so consuming platform capabilities was straightforward and consistent, without each team having to figure it out independently.
+
 Stream-aligned teams moved faster, duplication dropped, and domain expertise had a home.
 
 ---
@@ -66,6 +70,15 @@ Before Zod existed, there was no consistent way to handle API input validation a
 I designed and built a declarative, composable validation framework that became the company standard — adopted across the entire organisation and used in production for years. When Zod eventually emerged and matured, we replaced it. Not because the internal library had failed, but because maintaining something in-house couldn't justify competing with a thriving ecosystem.
 
 Building it was the right call. Replacing it was too.
+
+---
+
+### Mocha to Jest Migration Codemod
+
+During a company-wide migration from Mocha to Jest, teams were spending hours on work they hated. The side effect was predictable: shortcuts. Tests getting disabled rather than migrated, just to reduce the time cost. The migration was creating a quiet quality problem alongside the visible productivity one.  
+I built a codemod targeting our specific way of writing tests — including testing tools I had introduced earlier — to automate the migration. The bulk of the tests moved without any manual effort. The rest needed significantly less intervention than before.  
+I stopped automating deliberately. When the complexity of a case and its occurrence rate didn't justify the investment in automation, I left it for manual handling. The goal wasn't to automate everything — it was to remove the part that was causing shortcuts and burning time.  
+This was before AI could have done something like this. It took real effort to build. And it was worth it.
 
 ---
 
