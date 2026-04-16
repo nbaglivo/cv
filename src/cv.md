@@ -19,7 +19,7 @@ theme:
 
 # Nicolás Baglivo
 
-Valencia, Spain · Remote-first  
+Valencia, Spain  
 nicolas.baglivo@gmail.com · +34 610 418 657  
 [nbaglivo.dev](https://nbaglivo.dev) · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
 
@@ -105,7 +105,7 @@ Built solo end-to-end: a monorepo with three apps — marketing site, platform, 
 
 The interesting part wasn't the technical stack. It was treating a mundane, painful developer task as a product worth solving properly.
 
-A more detail architeture overview can be found [here](https://shipped.nbaglivo.dev/nbaglivo/apps/cvmd-sh/highlight/architecture-overview)
+A more detailed architecture overview can be found [here](https://shipped.nbaglivo.dev/nbaglivo/apps/cvmd-sh/highlight/architecture-overview)
 
 ---
 
