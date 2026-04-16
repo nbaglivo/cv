@@ -16,72 +16,94 @@ theme:
     hr: "border-t border-gray-200 mt-8 mb-8"
 ---
 
+
 # Nicolás Baglivo
 
-Valencia, Spain & Buenos Aires, Argentina · Remote-first  
+Valencia, Spain · Remote-first  
 nicolas.baglivo@gmail.com · +34 610 418 657  
-[nbaglivo.dev](https://nbaglivo.dev) *(built with Next.js)* · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
+[nbaglivo.dev](https://nbaglivo.dev) · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
 
 ---
 
-## Senior Product Engineer  
+I find where organisations lose energy — and fix it.
 
-`TypeScript · Node.js · React · AWS`
+After 15 years building systems and teams, I've learned the most important problems aren't always the ones you're assigned. They're the ones nobody owns but everyone feels: duplicated work, inconsistent patterns, growing cognitive load, friction that compounds quietly until it becomes expensive.
 
-Product engineer with 15+ years of experience building for the web.
+I work at the intersection of technical systems and organisational structure. I diagnose what's slowing teams down, build the shared capability that fixes it once instead of twelve times, and create conditions where developers can do their best work — and where that work drives real product outcomes. My measure of success: does the right behavior become the easy behavior, for everyone?
 
-I work end-to-end — from problem discovery and technical design to shipped product — with deep expertise in TypeScript and Node.js backends and strong frontend capability in React. I care about owning problems fully, not just implementing solutions.  
-I use a heavily AI-assisted workflow, am actively experimenting with agents and LLMs, and care about speed, iteration, and making thoughtful tradeoffs to deliver real impact.
+I think more than I execute. I write to create alignment. And I use AI to close that gap — not as a shortcut, but as a way to move fast without losing ownership of design and long-term system health. I apply the same thinking at the team level: AI adoption is an organisational capability problem, not an individual one.
 
 ---
 
 ## Selected Contributions
 
+### Order Platform Team Creation
+
+Multiple product teams were solving the same order-related problems independently — diverging implementations, duplicated logic, inconsistent behaviour across products. Nobody owned the problem because everyone owned a piece of it.
+
+I diagnosed the structural gap and proposed the solution: a dedicated platform team whose mandate was to centralise core order domain capabilities and serve the teams depending on them. I led it end-to-end — defined the scope, designed the shared services, hired the team from both inside and outside the organisation, and onboarded them into the mission.
+
+Stream-aligned teams moved faster, duplication dropped, and domain expertise had a home.
+
+---
+
 ### High-Scale Async Pricing Ingestion Pipeline
 
-- Identified a critical performance bottleneck as Tech Lead — outside my direct scope, but kept flagging it until given the space to own it.
-- Scoped the solution end-to-end: interviewed internal stakeholders, mapped adjacent integrations, wrote an RFC, gathered feedback from peers and the future owning team, and made the final architectural decisions where consensus ran out.
-- Reduced processing time for 1M pricing records from >24h to ~30 minutes and lowered compute costs by ~10×.
-- Designed a distributed ingestion architecture handling ~10M pricing records/day under burst-heavy workloads, implemented as a serverless pipeline using AWS Lambda, EventBridge and API Gateway.
+A critical performance bottleneck was slowing down the business — processing 1M pricing records took over 24 hours. It wasn't my problem to fix. I kept flagging it anyway until I was given the space to own it.
 
-### Order Platform Team Creation & Shared Services Architecture
+I scoped the solution end-to-end: interviewed internal stakeholders, mapped adjacent integrations, wrote an RFC, gathered feedback from peers and the future owning team, and made the final architectural decisions where consensus ran out.
 
-- Identified growing architectural fragmentation and duplicated implementations across multiple order-related product teams.
-- Proposed and led the creation of a dedicated Order Platform team to centralize core order domain capabilities.
-- Designed shared services and platform components used by multiple stream-aligned teams, reducing duplication and ensuring consistent behavior across products.
-- Consolidated domain expertise and enabled teams to reuse common functionality, improving development speed and long-term maintainability.
-- Staffed the team by hiring and onboarding engineers both internally and externally.
+The result: processing time dropped from 24h to ~30 minutes. Compute costs fell by 10×. The system now handles ~10M pricing records per day under burst-heavy workloads.
+
+---
+
+### Declarative Validation Framework
+
+Before Zod existed, there was no consistent way to handle API input validation and domain constraints across the codebase. Every team was solving it differently.
+
+I designed and built a declarative, composable validation framework that became the company standard — adopted across the entire organisation and used in production for years. When Zod eventually emerged and matured, we replaced it. Not because the internal library had failed, but because maintaining something in-house couldn't justify competing with a thriving ecosystem.
+
+Building it was the right call. Replacing it was too.
+
+---
+
+### Order Management System
+
+Architected and owned a resilient order management system handling thousands of daily transactions with near-zero tolerance for failure. Designed bounded contexts for order lifecycles, notifications, and inventory management, and exposed APIs to internal teams, third-party integrations, and partner systems.
+
+The first version had no way to resend orders. When integrations failed — APIs going down, services silently losing records — the fix was manual intervention. My manual intervention, on request, every time. I watched colleagues dealing with customers absorb the cost of it. Not my managers, not the PMs — the people actually feeling it.
+
+I built a resend mechanism in a day. Went slightly rogue doing it. Completely worth it.
+
+From there, fault-tolerant retry mechanisms handled transient failures automatically. Operational incidents dropped to near-zero. Nobody had to babysit the system anymore.
+
+---
+
+### Architecture context *(prototype)*
+
+Architecture drift is expensive because it's discovered too late — in code review, or worse, after shipping. The knowledge to prevent it usually exists, written in ADRs, but it sits dormant and disconnected from the tools that could use it.
+
+Fold changes that. When an ADR is pushed to GitHub, a GitHub app triggers an LLM that analyzes the decision and updates a structured architecture JSON committed back to the repo. That file becomes the living model of your system — human-readable, diffable, and reviewable alongside the decision that changed it.
+
+The JSON feeds a visualization tool that shows your architecture as it emerges from your decisions. An AI layer lets you consult it directly — asking questions grounded in the actual history and reasoning of the system, not just the current state of the code.
+
+The result: architecture checking shifts left. Plans get validated against existing decisions before a line is written. Drift gets caught during design, not during review.
+
+*Part of an ongoing series on AI-assisted architectural thinking — [nbaglivo.dev](https://static.nbaglivo.dev/writing/giving-claude-architectural-memory/)*
+
+---
 
 ### cvmd.sh — CV as Code Platform *(personal project)*
 
 [cvmd.foreignkey.sh](https://cvmd.foreignkey.sh)
 
-- Built solo end-to-end: a full-stack platform that treats CVs as code — write in Markdown, push to GitHub, get a hosted page and PDF automatically.
-- Designed a monorepo with three apps: marketing site, platform, and 
-  a dedicated PDF generation service (Hono on Railway).
-- Built real-time deployment monitoring with live log streaming so 
-  users can observe and rerun failed deployments.
-- Stack: Next.js, Hono, Neon, Vercel Storage, Railway, Vercel.
+Writing a CV shouldn't require a designer, a PDF tool, or a Word document. I built cvmd.sh to remove that friction entirely — write in Markdown, push to GitHub, get a hosted page and a PDF automatically.
 
-### Event-Driven Subsystem Communication Standards
+Built solo end-to-end: a monorepo with three apps — marketing site, platform, and a dedicated PDF generation service. Includes real-time deployment monitoring with live log streaming so users can observe and rerun failed deployments.
 
-- Defined shared standards for inter-service communication across subsystems.
-- Introduced event-driven patterns using AWS EventBridge.
-- Clarified when to prefer events over direct service-to-service communication.
-- Improved decoupling, scalability, and long-term system evolution.
+The interesting part wasn't the technical stack. It was treating a mundane, painful developer task as a product worth solving properly.
 
-### Order Management System Architecture
-
-- Architected and owned a resilient Order Management system handling thousands of daily transactions with near-zero tolerance for failure.
-- Designed bounded contexts for order lifecycles, notifications, and inventory management.
-- Exposed APIs to internal platform, third-party integrations, and partner systems.
-- Designed fault-tolerant retry mechanisms ensuring EDI transactions completed despite transient integration failures (APIs, FTP, email).
-- Reduced operational incidents to near-zero downtime, eliminating manual intervention at scale.
-
-### Declarative Validation Framework (Pre-Ecosystem Maturity)
-
-- Designed and implemented a declarative, composable validation framework for API input and domain constraints.
-- Built a strongly typed API leveraging advanced TypeScript generics and functional composition patterns.
+A more detail architeture overview can be found [here](https://shipped.nbaglivo.dev/nbaglivo/apps/cvmd-sh/highlight/architecture-overview)
 
 ---
 
@@ -89,83 +111,91 @@ I use a heavily AI-assisted workflow, am actively experimenting with agents and 
 
 ### Fashion Cloud — Hamburg, Germany (2017 – 2025)
 
-Joined when the company was ~13 people and a 4-person engineering team. Left with 130+ employees and ~40 engineers, having grown with and helped shape that scaling.
+Joined when the company was ~13 people and a 4-person engineering team. Left with 130+ employees and ~40 engineers. Eight years of growing with a company — and helping shape how it grew.
 
 **Tech Lead (2024 – 2025)**
 
-- Led architectural decisions for complex distributed systems.
-- Partnered closely with product during discovery to validate feasibility and shape technically sound solutions.
-- Defined service and team boundaries and domains, driving alignment between technical structure and team ownership.
-- Defined engineering standards improving scalability, reliability, and maintainability.
-- Contributed to company-wide technical strategy while remaining hands-on in critical initiatives.
-
+Operated at the intersection of technical architecture and organisational structure. The role came with a loose mandate — I shaped it. Defined service boundaries and team domains so that ownership was clear and Conway's Law worked in our favour rather than against us. Set engineering standards at company level. Partnered with product during discovery to catch feasibility problems early, before they became expensive. Stayed hands-on throughout.
 
 **Team Lead (2021 – 2024)**
 
-- Led technical direction for a customer-facing product area, 
-  bridging product goals and engineering execution.
-- Stayed hands-on across backend and frontend while managing 
-  the team's technical roadmap.
-- Contributed to hiring decisions and strengthened code review culture.
-- Mentored engineers at multiple levels, including growing a senior 
-  engineer into a Team Lead role — enabling both his progression 
-  and my own transition.
+Led a customer-facing product area end-to-end — technical direction, roadmap, hiring, and the bridge between product goals and engineering execution.
+
+The part I cared most about: making sure everyone knew they had a part to play — not generically, but specifically. What were their particular skills, traits, character that made them well-suited for something real? For senior engineers that meant finding where they could have the most impact and making sure they owned it. For juniors it was more about creating space to find their thing, learn, and absorb as much as possible.
+
+The clearest outcome: grew a senior engineer into a Team Lead role. His progression created the space for mine.
 
 **Software Engineer (2017 – 2021)**
 
-- Designed and implemented scalable APIs and backend services.
-- Contributed to frontend applications and internal tooling (Angular & React).
-- Led refactoring and architectural improvements of legacy systems.
+The foundation years — and where the pattern started. Early on I noticed a new product that nobody had really claimed. The existing engineers had attachments to other parts of the system they'd built and shaped over years. This one was open.
 
+I took it. Not because I was assigned it, but because I saw the space and wanted the ownership. Working closely with the CTO to shape it gave me responsibility and proximity to decision-making earlier than I would have had otherwise. That product later became the area I led as Team Lead. The decision I made in year one set the foundation for everything that came after.
+
+Also designed and built scalable APIs, backend services, and frontend applications. Led refactoring and architectural improvements of legacy systems — including some I had built myself.
+
+---
 
 ### Devsar — La Plata, Argentina
 
 **Fullstack Software Engineer (2015 – 2017)**
 
-Fullstack engineer building web applications for a San Francisco–based startup.
+Fullstack engineer building web applications for a San Francisco–based startup. Early lesson in working with a demanding, fast-moving founder — learned to set expectations clearly, articulate constraints, and say no when something wasn't possible. That kind of pressure teaches you to communicate precisely or pay for it.
 
 **Tech:** TypeScript, Node.js, Angular, React, PostgreSQL
+
+---
 
 ### LIFIA UNLP — La Plata, Argentina
 
 **Software Engineer (2011 – 2015)**
 
-Developed and maintained web applications using JavaScript, HTML, Node.js and C++.
+Developed and maintained web applications using JavaScript, HTML, and Node.js.
 
 ---
 
 ## Education
 
-**Universidad Nacional de La Plata — Argentina**  
+**Universidad Nacional de La Plata — Argentina**
 Analista Programador Universitario
 Graduated 2018
 
-**CoA Academy**  
+**CoA Academy**
 Chief of the Year (1-year leadership program) — 2021
 
 ---
 
 ## Skills
 
+**How I work**  
+
+Systems thinking · Organisational design · Technical writing · AI-assisted development · Context engineering · Cross-functional alignment · Setting expectations under pressure
+
 **Frontend**  
-React, Next.js, Tailwind, UI Architecture
+
+React · Next.js · Tailwind · UI Architecture
 
 **Backend**  
-TypeScript, Node.js, APIs, Async Processing
+
+TypeScript · Node.js · APIs · Async Processing
 
 **Cloud & Infrastructure**  
-AWS (Lambda, EventBridge, Fargate, S3, API Gateway), Terraform, Vercel, Docker
+
+AWS (Lambda, EventBridge, Fargate, S3, API Gateway) · Terraform · Vercel · Docker
 
 **Data**  
-MongoDB (Atlas, Atlas Search), PostgreSQL, Elasticsearch
+
+PostgreSQL · MongoDB · Elasticsearch
 
 **Architecture**  
-Event-Driven Architecture, Domain Driven Design,  Distributed Systems, Systems Thinking
+
+Event-Driven Architecture · Domain-Driven Design · Distributed Systems
 
 **AI**  
-LLM integration, Agent prototyping, AI-assisted development (Cursor, Claude)
+
+LLM integration · Context engineering · AI-assisted development workflows · Agent prototyping · GitHub Apps + LLM pipelines
 
 **Languages**  
+
 English — Full professional proficiency  
 Spanish — Native  
-German — Intermediate (B1 TELC)  
+German — Intermediate (B1)  
