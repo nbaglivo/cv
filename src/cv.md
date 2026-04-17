@@ -16,11 +16,10 @@ theme:
     hr: "border-t border-gray-200 mt-8 mb-8"
 ---
 
-
 # Nicolás Baglivo
 
-Valencia, Spain  
-nicolas.baglivo@gmail.com · +34 610 418 657  
+Valencia, Spain
+nicolas.baglivo@gmail.com · +34 610 418 657
 [nbaglivo.dev](https://nbaglivo.dev) · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
 
 ---
@@ -59,9 +58,9 @@ A critical performance bottleneck was slowing down the business — processing 1
 
 I scoped the solution end-to-end: interviewed internal stakeholders, mapped adjacent integrations, wrote an RFC, gathered feedback from peers and the future owning team, and made the final architectural decisions where consensus ran out.
 
-Working closely with the infrastructure team, I implemented the pipeline using AWS Lambda, EventBridge, and API Gateway — provisioned entirely through Terraform. Along the way I built reusable Terraform modules that simplified resource creation for other teams across the company. 
+Working closely with the infrastructure team, I implemented the pipeline using AWS Lambda, EventBridge, and API Gateway — provisioned entirely through Terraform. Along the way I built reusable Terraform modules that simplified resource creation for other teams across the company.
 
-The result: processing time dropped from 24h to ~30 minutes. Compute costs fell by 10×. The system now handles ~10M pricing records per day under burst-heavy workloads.
+The result: processing time dropped from 24h to ~30 minutes. Compute costs fell by 10×. The system now can handle ~10M pricing records per day under burst-heavy workloads.
 
 ---
 
@@ -77,10 +76,25 @@ Building it was the right call. Replacing it was too.
 
 ### Mocha to Jest Migration Codemod
 
-During a company-wide migration from Mocha to Jest, teams were spending hours on work they hated. The side effect was predictable: shortcuts. Tests getting disabled rather than migrated, just to reduce the time cost. The migration was creating a quiet quality problem alongside the visible productivity one.  
-I built a codemod targeting our specific way of writing tests — including testing tools I had introduced earlier — to automate the migration. The bulk of the tests moved without any manual effort. The rest needed significantly less intervention than before.  
-I stopped automating deliberately. When the complexity of a case and its occurrence rate didn't justify the investment in automation, I left it for manual handling. The goal wasn't to automate everything — it was to remove the part that was causing shortcuts and burning time.  
+During a company-wide migration from Mocha to Jest, teams were spending hours on work they hated. The side effect was predictable: shortcuts. Tests getting disabled rather than migrated, just to reduce the time cost. The migration was creating a quiet quality problem alongside the visible productivity one.
+
+I built a codemod targeting our specific way of writing tests — including testing tools I had introduced earlier — to automate the migration. The bulk of the tests moved without any manual effort. The rest needed significantly less intervention than before.
+
+I stopped automating deliberately. When the complexity of a case and its occurrence rate didn't justify the investment in automation, I left it for manual handling. The goal wasn't to automate everything — it was to remove the part that was causing shortcuts and burning time.
+
 This was before AI could have done something like this. It took real effort to build. And it was worth it.
+
+---
+
+### Engineering Standards — Testing Manifesto & Event-Driven Architecture Guide
+
+Two of the more impactful things I wrote at Fashion Cloud weren't code.
+
+The Testing Manifesto emerged from a pattern I kept seeing: tests that were either too brittle, too mocked, or too disconnected from real behaviour to catch anything meaningful. I wrote a company-wide guide that defined what good tests looked like in our context — what to test, what not to test, and why. It became the reference point for code review conversations and onboarding across a ~40-person engineering org. I also built tooling around it — shared utilities and helpers that made following the standard the path of least resistance. Less thinking, less effort, easier to do the right thing by default.
+
+The Event-Driven Architecture Guide came from a different gap: teams were making inconsistent decisions about when to use events versus direct service-to-service calls. I defined shared standards for inter-service communication, clarified the tradeoffs, and gave teams a clear framework to reason from. It reduced architectural drift and gave new engineers a mental model to work with from day one.
+
+Both documents are still in use. That's the kind of impact I care about — not just solving the problem once, but making it easier for everyone else to solve it the right way going forward.
 
 ---
 
