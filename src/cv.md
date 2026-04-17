@@ -31,7 +31,9 @@ After 15 years building systems and teams, I've learned the most important probl
 
 I work at the intersection of technical systems and organisational structure. I diagnose what's slowing teams down, build the shared capability that fixes it once instead of twelve times, and create conditions where developers can do their best work — and where that work drives real product outcomes. My measure of success: does the right behavior become the easy behavior, for everyone?
 
-I think more than I execute. I write to create alignment. And I use AI to close that gap — not as a shortcut, but as a way to move fast without losing ownership of design and long-term system health. I apply the same thinking at the team level: AI adoption is an organisational capability problem, not an individual one.
+I don't operate from a distance. I go into the problem — understand it properly, ship something real, and stay to see the outcome. Whatever the work is — product, platform, DX — I see it through to a clear result. No half-done handoffs. No decisions made from above that land on someone else to care about.
+
+I write to create alignment. And I use AI to close the gap — not as a shortcut, but as a way to move fast without losing ownership of design and long-term system health.
 
 ---
 
