@@ -18,9 +18,10 @@ theme:
 
 # Nicolás Baglivo
 
-Valencia, Spain
-nicolas.baglivo@gmail.com · +34 610 418 657
-[nbaglivo.dev](https://nbaglivo.dev) · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)
+Valencia, Spain  
+nicolas.baglivo@gmail.com · +34 610 418 657  
+[nbaglivo.dev](https://nbaglivo.dev) · [linkedin.com/in/nbaglivo](https://linkedin.com/in/nbaglivo)  
+
 
 ---
 
@@ -134,8 +135,6 @@ Built solo end-to-end: a monorepo with three apps — marketing site, platform, 
 
 The interesting part wasn't the technical stack. It was treating a mundane, painful developer task as a product worth solving properly.
 
-A more detailed architecture overview can be found [here](https://shipped.nbaglivo.dev/nbaglivo/apps/cvmd-sh/highlight/architecture-overview)
-
 ---
 
 ## Professional Experience
@@ -197,36 +196,28 @@ Chief of the Year (1-year leadership program) — 2021
 
 ## Skills
 
-**How I work**  
-
+**How I work**
 Systems thinking · Organisational design · Technical writing · AI-assisted development · Context engineering · Cross-functional alignment · Setting expectations under pressure
 
-**Frontend**  
-
+**Frontend**
 React · Next.js · Tailwind · UI Architecture
 
-**Backend**  
-
+**Backend**
 TypeScript · Node.js · APIs · Async Processing
 
-**Cloud & Infrastructure**  
-
+**Cloud & Infrastructure**
 AWS (Lambda, EventBridge, Fargate, S3, API Gateway) · Terraform · Vercel · Docker
 
-**Data**  
-
+**Data**
 PostgreSQL · MongoDB · Elasticsearch
 
-**Architecture**  
-
+**Architecture**
 Event-Driven Architecture · Domain-Driven Design · Distributed Systems
 
-**AI**  
-
+**AI**
 LLM integration · Context engineering · AI-assisted development workflows · Agent prototyping · GitHub Apps + LLM pipelines
 
-**Languages**  
-
-English — Full professional proficiency  
-Spanish — Native  
-German — Intermediate (B1)  
+**Languages**
+English — Full professional proficiency
+Spanish — Native
+German — Intermediate (B1)
