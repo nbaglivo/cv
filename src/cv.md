@@ -215,9 +215,9 @@ PostgreSQL · MongoDB · Elasticsearch
 Event-Driven Architecture · Domain-Driven Design · Distributed Systems
 
 **AI**  
-LLM integration · Context engineering · AI-assisted development workflows · Agent prototyping · GitHub Apps + LLM pipelines
+LLM integration · Context engineering · AI-assisted development workflows
 
 **Languages**  
-English — Full professional proficiency
-Spanish — Native
-German — Intermediate (B1)
+English — Full professional proficiency  
+Spanish — Native  
+German — Intermediate (B1)   
